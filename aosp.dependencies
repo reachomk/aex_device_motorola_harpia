@@ -2,14 +2,14 @@
   {
     "remote": "github",
     "repository": "Akianonymus/Linaro-arm",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-7.3",
-    "branch": "7.2"
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.9",
+    "branch": "4.9"
   },
   {
     "remote": "github",
     "repository": "Harpia-development/kernel_harpia",
     "target_path": "kernel/motorola/msm8916",
-    "branch": "thermal"
+    "branch": "pie"
   },
   {
     "remote": "github",
