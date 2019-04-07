@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
 # APNs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml \
-    $(LOCAL_PATH)/audio/spn-conf.xml:system/etc/spn-conf.xml
+    $(LOCAL_PATH)/configs/spn-conf.xml:system/etc/spn-conf.xml
 
 # Camera
 PRODUCT_COPY_FILES += \
