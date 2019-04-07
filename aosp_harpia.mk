@@ -17,16 +17,12 @@ $(call inherit-product, device/motorola/harpia/full_harpia.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # Inherit some common PE stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_BOOT_ANIMATION_RES := 720
-
-TARGET_GAPPS_ARCH := arm
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_USE_OLD_SOUND_PICKER := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := harpia
