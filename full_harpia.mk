@@ -16,9 +16,10 @@
 
 # Inherit from harpia device
 $(call inherit-product, device/motorola/harpia/device.mk)
+$(call inherit-product-if-exists, vendor/motorola/harpia/harpia-vendor.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := harpia
 PRODUCT_NAME := full_harpia
 
-$(call inherit-product-if-exists, vendor/motorola/harpia/harpia-vendor.mk)
+
